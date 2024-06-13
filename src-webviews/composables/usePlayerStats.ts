@@ -79,8 +79,8 @@ export function usePlayerStats() {
         WebViewEvents.on(Events.localPlayer.stats.speed, (speed: number) => (data.value.speed = speed));
         WebViewEvents.on(Events.localPlayer.stats.weapon, (weapon: number) => (data.value.weapon = weapon));
         WebViewEvents.on(Events.localPlayer.stats.stamina, (stamina: number) => (data.value.stamina = stamina));
-        // events.on(Events.localPlayer.stats.inWater, (inWater: boolean) => (data.value.inWater = inWater));
-        // events.on(Events.localPlayer.stats.ammo, (ammo: number) => (data.value.ammo = ammo));
+        WebViewEvents.on(Events.localPlayer.stats.inWater, (inWater: boolean) => (data.value.inWater = inWater));
+        WebViewEvents.on(Events.localPlayer.stats.ammo, (ammo: number) => (data.value.ammo = ammo));
 
         // // General
         WebViewEvents.on(Events.localPlayer.stats.ping, (ping: number) => (data.value.ping = ping));
@@ -120,7 +120,7 @@ export function usePlayerStats() {
 
         WebViewEvents.on(Events.localPlayer.stats.direction, (direction: string) => (data.value.direction = direction));
 
-        // events.on(Events.localPlayer.stats.weather, (weather: string) => (data.value.weather = weather));
+        WebViewEvents.on(Events.localPlayer.stats.weather, (weather: string) => (data.value.weather = weather));
 
         isInit = true;
     }
