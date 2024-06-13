@@ -36,26 +36,26 @@ Ever wanted to start your own GTA:V Roleplay Server? No idea where to start? Wel
 
 ## Important Links
 
-* [Guides / Installation](https://athenaframework.com)
-* [Discord](https://discord.com/servers/athena-framework-790039623648542760)
-* [Issues](https://github.com/Stuyk/altv-athena/issues)
-* [alt:V Client](https://altv.mp)
+-   [Guides / Installation](https://athenaframework.com)
+-   [Discord](https://discord.com/servers/athena-framework-790039623648542760)
+-   [Issues](https://github.com/Stuyk/altv-athena/issues)
+-   [alt:V Client](https://altv.mp)
 
 ## Quick Start
 
 ### Software to Install
 
-- [Install MongoDB Server](https://www.mongodb.com/try/download/community)
-- [Install Git](https://git-scm.com/downloads)
-- [NodeJS 18+](https://nodejs.org/en/download/)
-- [alt:V Client](https://altv.mp/)
+-   [Install MongoDB Server](https://www.mongodb.com/try/download/community)
+-   [Install Git](https://git-scm.com/downloads)
+-   [NodeJS 18+](https://nodejs.org/en/download/)
+-   [alt:V Client](https://altv.mp/)
 
 ### Run Commands in Terminal or Powershell
 
 <br />
 
 ```
-git clone https://github.com/Stuyk/altv-athena
+git clone https://github.com/soulmate1337/altv-athena-extended-support
 ```
 
 <br />
@@ -69,11 +69,13 @@ cd altv-athena
 ```
 npm install
 ```
+
 <br />
 
 ```
 npm run update
 ```
+
 <br />
 
 ```
