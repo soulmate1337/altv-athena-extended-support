@@ -1,6 +1,11 @@
 > [!IMPORTANT]  
-> Athena will no longer be updated.
-> Consider using [Rebar Framework](https://rebarv.com/) for more up-to-date practices, and a plugin system.
+> Athena will no longer be updated by Stuyk.
+> Thats why im trying to provide an extended support for this framework.
+
+> With this fork we want to keep the core as it is and improve it by bugfixes and smaller features only aswell as upcoming alt:V updates.
+
+> If you are new to alt:V i would highly recommend using Rebar Framework instead!
+> [Rebar Framework](https://rebarv.com/) for more up-to-date practices, and a plugin system.
 
 ---
 
@@ -36,19 +41,19 @@ Ever wanted to start your own GTA:V Roleplay Server? No idea where to start? Wel
 
 ## Important Links
 
-* [Guides / Installation](https://athenaframework.com)
-* [Discord](https://discord.com/servers/athena-framework-790039623648542760)
-* [Issues](https://github.com/Stuyk/altv-athena/issues)
-* [alt:V Client](https://altv.mp)
+-   [Guides / Installation](https://athenaframework.com)
+-   [Discord](https://discord.com/servers/athena-framework-790039623648542760)
+-   [Issues](https://github.com/Stuyk/altv-athena/issues)
+-   [alt:V Client](https://altv.mp)
 
 ## Quick Start
 
 ### Software to Install
 
-- [Install MongoDB Server](https://www.mongodb.com/try/download/community)
-- [Install Git](https://git-scm.com/downloads)
-- [NodeJS 18+](https://nodejs.org/en/download/)
-- [alt:V Client](https://altv.mp/)
+-   [Install MongoDB Server](https://www.mongodb.com/try/download/community)
+-   [Install Git](https://git-scm.com/downloads)
+-   [NodeJS 18+](https://nodejs.org/en/download/)
+-   [alt:V Client](https://altv.mp/)
 
 ### Run Commands in Terminal or Powershell
 
@@ -69,11 +74,13 @@ cd altv-athena
 ```
 npm install
 ```
+
 <br />
 
 ```
 npm run update
 ```
+
 <br />
 
 ```
@@ -86,8 +93,8 @@ npm run windows
 
 Special thank you to all these wonderful people who have helped move the Athena Framework forward.
 
-<a href = "https://github.com/stuyk/altv-athena/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=stuyk/altv-athena"/>
+<a href="https://github.com/soulmate1337/altv-athena-extended-support/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=soulmate1337/altv-athena-extended-support" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks).
