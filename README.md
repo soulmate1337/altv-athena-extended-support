@@ -1,6 +1,11 @@
 > [!IMPORTANT]  
-> Athena will no longer be updated.
-> Consider using [Rebar Framework](https://rebarv.com/) for more up-to-date practices, and a plugin system.
+> Athena will no longer be updated by Stuyk.
+> Thats why im trying to provide an extended support for this framework.
+
+> With this fork we want to keep the core as it is and improve it by bugfixes and smaller features only aswell as upcoming alt:V updates.
+
+> If you are new to alt:V i would highly recommend using Rebar Framework instead!
+> [Rebar Framework](https://rebarv.com/) for more up-to-date practices, and a plugin system.
 
 ---
 
@@ -88,8 +93,8 @@ npm run windows
 
 Special thank you to all these wonderful people who have helped move the Athena Framework forward.
 
-<a href = "https://github.com/stuyk/altv-athena/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=stuyk/altv-athena"/>
+<a href="https://github.com/soulmate1337/altv-athena-extended-support/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=soulmate1337/altv-athena-extended-support" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks).
