@@ -15,7 +15,8 @@
         "src/**/*.vue",
         "../src/core/plugins/**/webview/**.ts",
         "../src/core/plugins/**/webview/**.vue",
-        "../src/core/plugins/**/components/**.vue"
+        "../src/core/plugins/**/components/**.vue",
+        "src/tailwind.config.js"
     ],
     "exclude": [
         "../src/core/server/**",
