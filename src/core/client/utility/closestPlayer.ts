@@ -30,4 +30,6 @@ export function getClosestPlayers() {
 
         validPlayers.push({ name, id });
     }
+
+    return validPlayers;
 }
