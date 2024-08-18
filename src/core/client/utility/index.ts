@@ -6,5 +6,6 @@ import * as scene from './scene.js';
 import * as scenarios from './scenarios.js';
 import * as vector from '@AthenaShared/utility/vector.js';
 import * as hashLookup from '@AthenaShared/utility/hashLookup/index.js';
+import * as closestPlayers from './closestPlayer.js';
 
-export { math, model, pauseMenu, random, scene, scenarios, vector, hashLookup };
+export { math, model, pauseMenu, random, scene, scenarios, vector, hashLookup, closestPlayers };
