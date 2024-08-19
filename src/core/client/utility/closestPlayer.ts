@@ -1,9 +1,8 @@
 import * as alt from 'alt-client';
 import * as AthenaClient from '@AthenaClient/api/index.js';
 import { PLAYER_SYNCED_META } from '@AthenaShared/enums/playerSynced.js';
-import { INVENTORY_CONFIG } from '@AthenaPlugins/core-inventory/shared/config.js';
 
-export function getClosestPlayers() {
+export function getClosestPlayers(maxDistance: number) {
     const playerList = [...alt.Player.all];
     const validPlayers: Array<{ name: string; id: number }> = [];
 
@@ -24,7 +23,7 @@ export function getClosestPlayers() {
         }
 
         const dist = AthenaClient.utility.vector.distance(alt.Player.local.pos, playerList[i].pos);
-        if (dist > INVENTORY_CONFIG.MAX_GIVE_DISTANCE) {
+        if (dist > maxDistance) {
             continue;
         }
 
